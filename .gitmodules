@@ -1,0 +1,3 @@
+[submodule "server-nat"]
+	path = server-nat
+	url = git@github.com:CloudCoreo/cloudcoreo-nat.git
