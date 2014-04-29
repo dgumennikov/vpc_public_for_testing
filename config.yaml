@@ -2,6 +2,9 @@ variables:
     VPC_NAME:
         required: true
         description: the name of the VPC
+    NAT_NAME:
+        required: true
+        description: the name of the NAT
     PUBLIC_SUBNET_NAME:
         required: true
         description: the cloudcoreo name of the public vpc subnets
