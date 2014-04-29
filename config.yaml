@@ -2,7 +2,7 @@ variables:
     VPC_NAME:
         required: true
         description: the name of the VPC
-        default: my-subnet
+        default: my-vpc
     PUBLIC_SUBNET_NAME:
         required: true
         description: the cloudcoreo name of the public vpc subnets
