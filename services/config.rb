@@ -21,7 +21,7 @@ end
 ## to the internet gateway
 ######################################################################
 coreo_aws_vpc_routetable "${PUBLIC_ROUTE_NAME}" do
-  action :find_or_create
+  action :sustain
   vpc "${VPC_NAME}"
   routes [
              { :from => "0.0.0.0/0", :to => "${VPC_NAME}", :type => :igw },
@@ -36,7 +36,7 @@ end
 ##   split, but use only this percentage of the entire vpc range
 ######################################################################
 coreo_aws_vpc_subnet "${PUBLIC_SUBNET_NAME}" do
-  action :find_or_create
+  action :sustain
   number_of_zones 3
   percent_of_vpc_allocated 50
   route_table "${PUBLIC_ROUTE_NAME}"
