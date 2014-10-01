@@ -41,4 +41,5 @@ coreo_aws_vpc_subnet "${PUBLIC_SUBNET_NAME}" do
   percent_of_vpc_allocated 50
   route_table "${PUBLIC_ROUTE_NAME}"
   vpc "${VPC_NAME}"
+  map_public_ip_on_launch true
 end
