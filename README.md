@@ -25,3 +25,4 @@ This [CloudCoreo](http://www.cloudcoreo.com) repository will create a VPC with p
   * required: true
   * description: the name to give to the public route
   * default: my-public-route
+
