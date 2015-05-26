@@ -1,9 +1,7 @@
 cloudcoreo-vpc-public
 =====================
 
-This [CloudCoreo](http://www.cloudcoreo.com) repository will create a VPC with public subnets. In addition, it will create and maintain a <b>mostly-available</b> NAT instance in the public subnets.
-
-* <b>Mostly-Available</b> refers to the fact that the HA will go down in the event of its AZ outage, but auto scaling will relaunch in a different AZ ensuring minimum downtime of the NAT
+This [CloudCoreo](http://www.cloudcoreo.com) repository will create a VPC with public subnets.
 
 <h3>OVERRIDE REQUIRED VARIABLES</h3>
 * <b>VPC_NAME:</b>
