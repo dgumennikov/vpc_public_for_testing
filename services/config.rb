@@ -26,6 +26,7 @@ coreo_aws_vpc_routetable "${PUBLIC_ROUTE_NAME}" do
   routes [
              { :from => "0.0.0.0/0", :to => "${VPC_NAME}", :type => :igw },
         ]
+  number_of_tables 1
 end
 
 
@@ -38,7 +39,7 @@ end
 coreo_aws_vpc_subnet "${PUBLIC_SUBNET_NAME}" do
   action :sustain
   number_of_zones 3
-  percent_of_vpc_allocated 50
+  percent_of_vpc_allocated 25
   route_table "${PUBLIC_ROUTE_NAME}"
   vpc "${VPC_NAME}"
   map_public_ip_on_launch true
