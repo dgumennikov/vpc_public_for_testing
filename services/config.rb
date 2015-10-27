@@ -24,7 +24,7 @@ coreo_aws_vpc_routetable "${PUBLIC_ROUTE_NAME}" do
   action :sustain
   vpc "${VPC_NAME}"
   routes [
-             { :from => "0.0.0.0/0", :to => "${VPC_NAME}", :type => :igw },
+             { :from => "0.0.0.0/0", :to => "${VPC_NAME}", :type => :igw }
         ]
   number_of_tables 1
 end
