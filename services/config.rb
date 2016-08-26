@@ -10,7 +10,7 @@
 ## Create a vpc, igw and attach the igw to the vpc
 ######################################################################
 coreo_aws_vpc_vpc "${VPC_NAME}" do
-  action :find_or_create
+  action :sustain
   cidr "${VPC_OCTETS}/16"
   internet_gateway true
 end
