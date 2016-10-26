@@ -4,6 +4,10 @@ cloudcoreo-vpc-public
 ## Description
 This [CloudCoreo](http://www.cloudcoreo.com) repository will create a VPC with public subnets.
 
+## Categories
+
+1. Network
+
 <h3>OVERRIDE OPTIONAL VARIABLES</h3>
 * <b>VPC_NAME:</b>
   * required: true
