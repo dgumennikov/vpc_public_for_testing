@@ -5,6 +5,7 @@ cloudcoreo-vpc-public
 ## Description
 This [CloudCoreo](http://www.cloudcoreo.com) repository will create a VPC with public subnets.
 
+
 ## Hierarchy
 ![composite inheritance hierarchy](https://raw.githubusercontent.com/CloudCoreo/cloudcoreo-vpc-public/master/images/hierarchy.png "composite inheritance hierarchy")
 
