@@ -42,6 +42,10 @@ This [CloudCoreo](http://www.cloudcoreo.com) repository will create a VPC with p
   * default: test-public-subnet
 
 
+### `PUBLIC_SUBNET_NUM_ZONES`:
+  * description: How many public subnets to create
+  * default: 3
+
 
 ## Optional variables with no default
 
@@ -52,6 +56,9 @@ This [CloudCoreo](http://www.cloudcoreo.com) repository will create a VPC with p
 
 ### `SUFFIX`:
   * description: when used will use the value to suffix the names of all converged objects
+
+### `VPC_TAGS`:
+  * description: tags to apply to the vpc
 
 ## Tags
 1. Network
