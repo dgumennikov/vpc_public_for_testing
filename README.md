@@ -30,7 +30,7 @@ This [CloudCoreo](http://www.cloudcoreo.com) repository will create a VPC with p
 
 ### `REGION`:
   * description: use default except for multiple region use cases
-  * default: INSTANCE::region
+  * default: PLAN::region
 
 ### `PUBLIC_ROUTE_NAME`:
   * description: the name to give to the public route
