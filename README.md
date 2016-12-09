@@ -75,6 +75,6 @@ This [CloudCoreo](http://www.cloudcoreo.com) repository will create a VPC with p
 
 
 ## Icon
-
+![icon](https://raw.githubusercontent.com/CloudCoreo/cloudcoreo-vpc-public/master/images/icon.png "icon")
 
 
