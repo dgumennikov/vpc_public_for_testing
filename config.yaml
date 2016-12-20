@@ -23,7 +23,7 @@ variables:
     SUFFIX:
         required: false
         description: when used will use the value to suffix the names of all converged objects
-        type: str
+        type: st
     VPC_TAGS:
         required: false
         description: tags to apply to the vpc
@@ -33,4 +33,4 @@ variables:
         required: true
         description: How many public subnets to create
         type: number
-        default: 3
+        default: 
