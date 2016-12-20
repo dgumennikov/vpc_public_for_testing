@@ -23,7 +23,7 @@ variables:
     SUFFIX:
         required: false
         description: when used will use the value to suffix the names of all converged objects
-        type: string
+        type: str
     VPC_TAGS:
         required: false
         description: tags to apply to the vpc
