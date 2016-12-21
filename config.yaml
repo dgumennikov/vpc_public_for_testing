@@ -42,4 +42,4 @@ variables:
         required: false
         description: Test variables
         type: string 
-        default: test
+        default: test123
