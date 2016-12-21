@@ -39,7 +39,12 @@ variables:
         type: number
         default:
     TEST_VAR:
-        required: false
+        required: true
         description: Test variables
         type: string 
-        default: test123
+        default: test1234
+    TEST_VAR2:
+        required: false
+        description: Test variables
+        type: string
+        default: test
