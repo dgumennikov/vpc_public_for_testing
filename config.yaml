@@ -16,7 +16,7 @@ variables:
         required: true
         description: the name to give to the public route
         default: test-public-route
-    PUBLIC_SUBNET_NAME:
+    PUBLIC_SUBNET_NAME_TEST:
         required: true
         description: the cloudcoreo name of the public vpc subnets
         default: test-public-subnet-test
