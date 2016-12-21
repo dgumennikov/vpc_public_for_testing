@@ -20,6 +20,10 @@ variables:
         required: true
         description: the cloudcoreo name of the public vpc subnets
         default: test-public-subnet-test
+    PUBLIC_SUBNET_NAME_TEST:
+        required: true
+        description: the cloudcoreo name of the public vpc subnets
+        default: test-public-subnet-test
     SUFFIX:
         required: false
         description: when used will use the value to suffix the names of all converged objects
